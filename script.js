@@ -1,3 +1,7 @@
-function showMessage() {
-    alert("Welcome Suman! Keep Learning 🚀");
+function updateClock() {
+    const now = new Date();
+    document.getElementById("clock").innerHTML =
+        now.toLocaleTimeString();
 }
+
+setInterval(updateClock, 1000);
