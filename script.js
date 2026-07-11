@@ -1,10 +1,9 @@
-function updateClock() {
-    const now = new Date();
-    document.getElementById("clock").innerHTML =
-        now.toLocaleTimeString();
-}
+function add() {
+    let a = Number(document.getElementById("num1").value);
+    let b = Number(document.getElementById("num2").value);
 
-setInterval(updateClock, 1000);
-function darkMode() {
-    document.body.classList.toggle("dark");
+    let sum = a + b;
+
+    document.getElementById("result").innerHTML =
+        "Result: " + sum;
 }
