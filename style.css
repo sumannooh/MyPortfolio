@@ -11,3 +11,12 @@ a{
     color:blue;
     font-weight:bold;
 }
+.dark {
+    background-color: #222;
+    color: white;
+}
+
+.dark button {
+    background-color: white;
+    color: black;
+}
