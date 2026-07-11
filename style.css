@@ -1,0 +1,18 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+h2 {
+    color: #333333;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
