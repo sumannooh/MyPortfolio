@@ -1,29 +1,13 @@
-body{
-    background: linear-gradient(to right,#4facfe,#00f2fe);
-    font-family: Arial, sans-serif;
-    text-align: center;
-    color: white;
-}
-
-.profile{
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    border:5px solid white;
-    margin-top:20px;
-}
-
-button{
-    background:#ffffff;
-    color:#0077cc;
-    border:none;
-    padding:12px 25px;
-    font-size:18px;
+#contact{
+    background:white;
+    color:black;
+    padding:20px;
+    margin:20px;
     border-radius:10px;
-    cursor:pointer;
 }
 
-button:hover{
-    background:#0077cc;
-    color:white;
+a{
+    text-decoration:none;
+    color:blue;
+    font-weight:bold;
 }
