@@ -5,3 +5,6 @@ function updateClock() {
 }
 
 setInterval(updateClock, 1000);
+function darkMode() {
+    document.body.classList.toggle("dark");
+}
