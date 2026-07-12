@@ -22,6 +22,7 @@ function addTask() {
 
     document.getElementById("task").value = "";
 }
+
 const quotes = [
     "Success comes from hard work.",
     "Never stop learning.",
