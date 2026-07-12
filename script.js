@@ -22,3 +22,15 @@ function addTask() {
 
     document.getElementById("task").value = "";
 }
+const quotes = [
+    "Success comes from hard work.",
+    "Never stop learning.",
+    "Practice makes perfect.",
+    "Believe in yourself.",
+    "Every day is a new opportunity."
+];
+
+function showQuote() {
+    let random = Math.floor(Math.random() * quotes.length);
+    document.getElementById("quote").innerHTML = quotes[random];
+}
