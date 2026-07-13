@@ -21,7 +21,20 @@ body{
     margin: 20px auto;
     border: 4px solid white;
 }
+nav{
+    background:#0066cc;
+    padding:15px;
+    position:sticky;
+    top:0;
+}
 
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    margin:0 15px;
+}
 .card{
     background:rgba(255,255,255,0.15);
     padding:20px;
