@@ -1,9 +1,11 @@
 body{
-    background: linear-gradient(to right,#4facfe,#00f2fe);
-    font-family: Arial, sans-serif;
-    text-align: center;
-    color: white;
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    color:white;
+    text-align:center;
 }
+
 .container{
     max-width:900px;
     margin:auto;
@@ -15,6 +17,7 @@ body{
     height:180px;
     border-radius:50%;
     border:5px solid white;
+    object-fit:cover;
 }
 
 .card{
@@ -37,23 +40,4 @@ button{
 button:hover{
     background:#0077cc;
     color:white;
-}
-
-nav{
-    background:#0066cc;
-    padding:15px;
-    position:sticky;
-    top:0;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-size:18px;
-    font-weight:bold;
-}
-
-nav a:hover{
-    color:yellow;
 }
