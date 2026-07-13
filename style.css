@@ -1,11 +1,4 @@
-
-h1{
-    font-size:40px;
-}
-
-h2{
-    font-size:26px;
-}body{
+body{
     margin:0;
     font-family:Arial,sans-serif;
     background:linear-gradient(135deg,#4facfe,#00f2fe);
