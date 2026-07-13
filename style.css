@@ -41,3 +41,22 @@ button:hover{
     background:#0077cc;
     color:white;
 }
+
+nav{
+    background:#0066cc;
+    padding:15px;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
