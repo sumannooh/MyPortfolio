@@ -1,55 +1,108 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
+<div class="logo">My Portfolio</div>
+
+<div>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+<button onclick="toggleMode()">🌙</button>
+
+</div>
+
 </nav>
 
 <div class="container">
 
-    <img src="profile.jpg" class="profile" alt="Profile Photo">
+<img src="profile.jpg" class="profile">
 
-    <h1>Welcome Suman!</h1>
-    <h2>Software Developer</h2>
+<h1>Suman Kumar</h1>
 
-    <div class="card" id="about">
-        <h3>About Me</h3>
-        <p>I am learning Python, HTML, CSS, JavaScript and Kivy.</p>
-    </div>
+<h2>Software Developer</h2>
 
-    <div class="card" id="skills">
-        <h3>Skills</h3>
-        <p>Python • HTML • CSS • JavaScript • Kivy</p>
-    </div>
+<p>I am learning Python, HTML, CSS, JavaScript and Kivy.</p>
 
-    <div class="card" id="projects">
-        <h3>Projects</h3>
-        <p>Portfolio Website | Calculator | To-Do List</p>
-    </div>
+<a href="resume.pdf" download>
+<button>📄 Download Resume</button>
+</a>
 
-    <div class="card" id="contact">
-        <h3>Contact</h3>
-        <p>Email: aiartsuman@gmail.com</p>
-    </div>
+<a href="https://github.com/sumannooh" target="_blank">
+<button>💻 GitHub</button>
+</a>
 
-    <a href="https://github.com/sumannooh" target="_blank">
-        <button>Visit My GitHub</button>
-    </a>
-<footer>
-    <p>© 2026 Suman Kumar | Made with ❤️ using HTML, CSS & JavaScript</p>
-</footer>
-    
+<div class="card" id="about">
+
+<h3>About Me</h3>
+
+<p>
+I love programming and web development.
+My goal is to become a Professional Software Developer.
+</p>
+
 </div>
+
+<div class="card" id="skills">
+
+<h3>Skills</h3>
+
+<ul>
+
+<li>Python</li>
+
+<li>HTML</li>
+
+<li>CSS</li>
+
+<li>JavaScript</li>
+
+<li>Kivy</li>
+
+</ul>
+
+</div>
+
+<div class="card" id="projects">
+
+<h3>Projects</h3>
+
+<ul>
+
+<li>Portfolio Website</li>
+
+<li>Calculator</li>
+
+<li>To-Do List</li>
+
+</ul>
+
+</div>
+
+<div class="card" id="contact">
+
+<h3>Contact</h3>
+
+<p>Email : aiartsuman@gmail.com</p>
+
+<p>GitHub : github.com/sumannooh</p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
